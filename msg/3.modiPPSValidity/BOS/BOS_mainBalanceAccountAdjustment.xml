@@ -1,0 +1,32 @@
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES06.0" name="DIAMETER" invoke="[:invoke:]" type="response" method="POST" ctype="Credit-Control"
+	to="SMOI.ES00.0" ret="0" />
+
+	<Session-Id value="olympus4@14004212913242427811;20140516;113802;446" />
+	<CC-Request-Type value="4" />
+	<CC-Request-Number value="0" />
+	<Origin-Realm value="toro.awn.co.th" />
+	<Result-Code value="2001" />
+	<Origin-Host value="ocf" />
+	<Auth-Application-Id value="4" />
+	<Service-Information>
+		<IN-Information>
+			<Description value="0x20cc0e0e" />
+			<Account-Info>
+				<Book-Item-Id value="1111111111" />
+				<Book-Item-Amount value="10000" />
+				<Book-Item-Type value="2000" />
+				<Validity-Date value="0x20130905220700" />
+				<Expire-Date value="0x20150905220700" />
+				<Old-Amount value="2000" />
+				<Old-Validity value="0x20130805220700" />
+			</Account-Info>
+			<Customer-Life-Cycle-State value="0x01" />
+		</IN-Information>
+	</Service-Information>
+
+
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

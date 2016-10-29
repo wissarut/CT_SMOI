@@ -1,0 +1,23 @@
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:DCCR.ES05.SGSCP.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES03.CHKB" to="SMOI.ES00.SMOI" oid="0.0.17.1218.8.7.9" name="LDAP" type="response" ctype="extended" invoke="[:invoke:]" ecode="0" method="POST" ret="0">
+
+		<AVP type="methodVersion">
+			<vals value="1" />
+		</AVP>
+		<AVP type="accountInfo">
+			<vals value="1,20161005:235959,20161104:235959,20161119:235959,20161119:235959,365,0,0,0,0" />
+		</AVP>
+		<AVP type="counters">
+			<vals value="200010,0,20160902:101212,21060207:132815,1000000,0,,," />
+			<vals value="200100,0,20160810:165129,20160928:132815,1000,0,,," />
+			<vals value="200501,1500,20160905:110837,20161005:110837,1500,0,0:102100012:Reward Money (voice/video call/SMS/SMS Delivery Report) (Prepaid)|1:102100012:Reward Money (voice/video call/SMS/SMS Delivery Report) (Prepaid),," />
+			<vals value="200502,1000,20160810:165129,20160928:132815,1000,0,0:102100012:Reward Money (voice/video call/SMS/SMS Delivery Report) (Prepaid)|1:102100012:Reward Money (voice/video call/SMS/SMS Delivery Report) (Prepaid),1004,INS_3G Freecall AIS 1GB 11pm to 6am 1mth|1.0.0|promo" />
+		</AVP>
+
+
+	</EquinoxRawData>
+
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

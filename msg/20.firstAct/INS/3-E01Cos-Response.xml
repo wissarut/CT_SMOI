@@ -1,0 +1,33 @@
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SERV.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.E01.0.0" to="SMOI.ES00.SMOI" name="db" type="response" ctype="db" invoke="[:invoke:]" ret="0">
+		<message command="search" resultcode="0" id="[:dbID0:]" objecttype="NewClassOfService" key0="Olympus" key1="NULL" key2="600003" key3="66881108888" key4="def">
+			<data value="{
+	&quot;listClassOfService&quot;:{
+		&quot;state&quot;:&quot;1&quot;,
+		&quot;data&quot;:[
+			{
+			&quot;starttime&quot; : &quot;20160115000000&quot;,
+				&quot;endtime&quot; : &quot;20160331235959&quot;,
+				&quot;classOfService&quot; : &quot;600001&quot;,
+				&quot;rewardId&quot; : &quot;R01,R02&quot;,
+				&quot;refillStopTime&quot; : &quot;2056-03-12T13:28:15.0000000+07:00&quot;,
+				&quot;refillStopTimeMonth&quot; : &quot;8&quot;
+			},
+			{
+				&quot;starttime&quot; : &quot;20160401000000&quot;,
+				&quot;endtime&quot; : &quot;20161030235959&quot;,
+				&quot;classOfService&quot; : &quot;600003&quot;,
+				&quot;rewardId&quot; : &quot;R01,R02&quot;,
+				&quot;refillStopTime&quot; : &quot;2056-03-12T13:28:15.0000000+07:00&quot;,
+				&quot;refillStopTimeMonth&quot; : &quot;9&quot;
+			}
+		]
+	}
+}
+" />
+		</message>
+	</EquinoxRawData>
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

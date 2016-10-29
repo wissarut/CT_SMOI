@@ -1,0 +1,85 @@
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES06.0" name="DIAMETER" invoke="[:invoke:]" type="response" method="POST" ctype="Credit-Control" 
+	to="SMOI.ES00.0" ret="0" />
+
+	<Session-Id value="smsgw4@263108;20140609;161928;340" />
+	<CC-Request-Type value="4" />
+	<CC-Request-Number value="0" />
+	<Origin-Realm value="INGW_SMOI-Origin-Realm" />
+	<Result-Code value="2001" />
+	<Origin-Host value="INGW_SMOI-Origin-Host" />
+	<Auth-Application-Id value="4" />
+	<Service-Information>
+		<IN-Information>
+			<Description value="0x01cc0e0e" />
+			<FreeRes-Info>
+				<Resource-Id value="10210000" />
+				<Resource-Amount value="500" />
+				<Remaining-Amount value="50" />
+				<Validity-Date value="0x3230313330343235313531323134" />
+				<Expire-Date value="0x3230313730343232303030303031" />
+				<Resource-Group-ID value="102011111" />
+				<Product-ID value="1234" />
+				<Product-Sequence-ID value="1234" />
+				<Resource-Mode value="1234" />
+			</FreeRes-Info>
+			<FreeRes-Info>
+				<Resource-Id value="8210000" />
+				<Resource-Amount value="400" />
+				<Remaining-Amount value="40" />
+				<Validity-Date value="0x3230313330343235313531323134" />
+				<Expire-Date value="0x3230313730343232303030303031" />
+				<Resource-Group-ID value="02011111" />
+				<Product-ID value="1234" />
+				<Product-Sequence-ID value="1234" />
+				<Resource-Mode value="1234" />
+			</FreeRes-Info>
+			<FreeRes-Info>
+				<Resource-Id value="2210000" />
+				<Resource-Amount value="300" />
+				<Remaining-Amount value="130" />
+				<Validity-Date value="0x3230313330343235313531323134" />
+				<Expire-Date value="0x3230313530343232303030303031" />
+				<Resource-Group-ID value="22011111" />
+				<Product-ID value="1234" />
+				<Product-Sequence-ID value="1234" />
+				<Resource-Mode value="1234" />
+			</FreeRes-Info>
+			<FreeRes-Info>
+				<Resource-Id value="11210000" />
+				<Resource-Amount value="600" />
+				<Remaining-Amount value="60" />
+				<Validity-Date value="0x3230313330343235313531323134" />
+				<Expire-Date value="0x3230313530343232303030303031" />
+				<Resource-Group-ID value="112011111" />
+				<Product-ID value="1234" />
+				<Product-Sequence-ID value="1234" />
+				<Resource-Mode value="1234" />
+			</FreeRes-Info>
+			<FreeRes-Info>
+				<Resource-Id value="29210000" />
+				<Resource-Amount value="700" />
+				<Remaining-Amount value="70" />
+				<Validity-Date value="0x3230313330343235313531323134" />
+				<Expire-Date value="0x3230313530343232303030303031" />
+				<Resource-Group-ID value="292011111" />
+				<Product-ID value="1234" />
+				<Product-Sequence-ID value="1234" />
+				<Resource-Mode value="1234" />
+			</FreeRes-Info>
+			<Active-Period value="0x3230313330343232303030303030" />
+			<Suspend-Period value="0x3230313530353232323034383135" />
+			<Disable-Period value="0x3230313530363033303030303030" />
+			<Customer-Life-Cycle-State value="0x30" />
+			<Max-Count-Total value="300000" />
+			<Max-Validity value="365" />
+			<Fraud-Lock value="0" />
+			<Brand-Id value="2628" />
+		</IN-Information>
+	</Service-Information>
+
+
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

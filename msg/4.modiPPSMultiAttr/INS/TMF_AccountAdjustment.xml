@@ -1,0 +1,34 @@
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES06.0" name="DIAMETER" invoke="[:invoke:]" type="response" method="POST" ctype="Credit-Control"
+	to="SMOI.ES00.0" ret="0" />
+
+	<Session-Id value="smsgw4@263108+20160930;212046;264" />
+	<Result-Code value="2001" />
+	<Origin-Host value="DBOSMTUA201G" />
+	<Origin-Realm value="sand.ais.co.th" />
+	<Auth-Application-Id value="4" />
+	<CC-Request-Type value="4" />
+	<CC-Request-Number value="0" />
+	<Service-Information>
+		<IN-Information>
+			<Description value="0x53756363657373" />
+			<Account-Info>
+				<Book-Item-Id value="200010" />
+				<Book-Item-Amount value="1200" />
+				<Book-Item-Type value="2000" />
+				<Validity-Date value="0x3230313630393330313730383332" />
+				<Expire-Date value="0x3230313631303330323335393539" />
+				<Old-Amount value="0" />
+				<Old-Validity value="0x3230313631303330323335393539" />
+			</Account-Info>
+			<Customer-Life-Cycle-State value="0x31" />
+		</IN-Information>
+	</Service-Information>
+
+
+
+
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

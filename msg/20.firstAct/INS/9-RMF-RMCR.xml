@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="tis-620" ?>
+<EquinoxMessage from="INGW_SQA.E11.0" via="INGW_SQA.E11.0" session="1157541753:INGW_SQA.ES05.RMF.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="INGW_SQA.ES05.RMF.0" name="HTTP" invoke="1157541753" type="request" method="POST" url="/" ctype="text/plain" val="{&quot;sessionId&quot;:&quot;50192000072118170708&quot;,&quot;userId&quot;:{&quot;userIdType&quot;:&quot;0&quot;,&quot;userIdData&quot;:&quot;66933516332&quot;},&quot;resultCode&quot;:&quot;50000&quot;,&quot;developerMessage&quot;:&quot;System Error&quot;,&quot;rewardInfo&quot;:[{&quot;status&quot;:&quot;error&quot;,&quot;rewardType&quot;:&quot;3&quot;,&quot;startTime&quot;:&quot;20160905:144145&quot;,&quot;expiryTime&quot;:&quot;20161011:144145&quot;,&quot;productName&quot;:&quot;INS_VA ViberChat 1 month&quot;}]}" to="INGW_SQA.ES00" ret="0" />
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

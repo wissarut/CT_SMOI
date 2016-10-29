@@ -1,0 +1,26 @@
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES03.DS2A" to="SMOI.ES00.SMOI" oid="0.0.17.1218.8.7.0" name="LDAP" type="response" ctype="extended" invoke="[:invoke:]" ecode="0" method="POST" url="" ret="0">
+
+					
+		<AVP type="methodVersion">
+			<vals value="10" />
+		</AVP>
+		<AVP type="resultInfo">
+			<vals value="66932080736,668961423492394,1,1,,0,,1,7,,5,awn,0,0,0,2,3,4,5,20160829153615+0700,Idle,,,,,20160908235959+0700,00000000000000,00000000000000,00000000000000,00000000000000,66896142349239ssssss4,31500070069427" />
+		</AVP>
+		<AVP type="accountingInfo">
+			<vals value="600003,SNOVA103,66818310361,3661,,INS,,,3,0000000000000,000,0000,0000000000000,,,," />
+		</AVP>
+		<AVP type="toggledAccountingInfo">
+			<vals value=",,,,,,,,," />
+		</AVP>
+		<AVP type="prefixAccountingInfo">
+			<vals value=",,,,,,,," />
+		</AVP>
+
+
+	</EquinoxRawData>
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

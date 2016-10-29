@@ -1,0 +1,20 @@
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:DCCR.ES05.SGSCP.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES03.CHKB" to="SMOI.ES00.SMOI" oid="0.0.17.1218.8.7.9" name="LDAP" type="response" ctype="extended" invoke="[:invoke:]" ecode="0" method="POST" ret="0">
+
+				<AVP type="methodVersion">
+	<vals value="1" />
+</AVP>
+<AVP type="accountInfo">
+	<vals value="1,20161025:000000,20161114:000000,20161214:000000,20170123:000000,365,0,0,0,0" />
+</AVP>
+<AVP type="counters">
+	<vals value="200010,-500,20160711:145558,21060207:132815,2147483647,-2000" />
+</AVP>
+
+
+	</EquinoxRawData>
+
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

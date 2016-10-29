@@ -1,0 +1,20 @@
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES05.SMOI.0" name="HTTP" invoke="[:invoke:]" type="response" method="POST" ctype="text/xml" 
+	to="SMOI.ES00.0" ret="0" />
+	
+		<ERDHeader>
+	<Header name="Server" value="Apache-Coyote/1.1" />
+	<Header name="X-Powered-By" value="Servlet 2.4; JBoss-4.0.5.GA (build: CVSTag=Branch_4_0 date=200610162339)/Tomcat-5.5" />
+	<Header name="X-UA-Compatible" value="IE=EmulateIE7" />
+	<Header name="Set-Cookie" value="JSESSIONID=4E6EFF58D0CF9FDBD5DBE88E37930175.server1; Path=/" />
+	<Header name="Content-Type" value="text/xml;charset=UTF-8" />
+	<Header name="Transfer-Encoding" value="chunked" />
+	<Header name="Date" value="Wed, 27 Jul 2016 0" />
+</ERDHeader>
+<ERDData value="&lt;?xml version=&apos;1.0&apos; encoding=&apos;UTF-8&apos;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header /&gt;&lt;soapenv:Body&gt;&lt;ManSubCallScreenNoResultMsg xmlns=&quot;http://www.huawei.com/bme/cbsinterface/scp/businessmgrmsg&quot;&gt;&lt;ResultHeader xmlns=&quot;&quot;&gt;&lt;CommandId xmlns=&quot;http://www.huawei.com/bme/cbsinterface/common&quot;&gt;ManSubCallScreenNo&lt;/CommandId&gt;&lt;Version xmlns=&quot;http://www.huawei.com/bme/cbsinterface/common&quot;&gt;1&lt;/Version&gt;&lt;TransactionId xmlns=&quot;http://www.huawei.com/bme/cbsinterface/common&quot;&gt;SGSCP_zeus_195&lt;/TransactionId&gt;&lt;SequenceId xmlns=&quot;http://www.huawei.com/bme/cbsinterface/common&quot;&gt;1&lt;/SequenceId&gt;&lt;ResultCode xmlns=&quot;http://www.huawei.com/bme/cbsinterface/common&quot;&gt;405000000&lt;/ResultCode&gt;&lt;ResultDesc xmlns=&quot;http://www.huawei.com/bme/cbsinterface/common&quot;&gt;Operation succeeded.&lt;/ResultDesc&gt;&lt;/ResultHeader&gt;&lt;/ManSubCallScreenNoResultMsg&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;" />
+
+
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

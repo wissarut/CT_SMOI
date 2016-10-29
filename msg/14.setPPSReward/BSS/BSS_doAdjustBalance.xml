@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="tis-620" ?>
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES04.BSS.0" name="HTTP" invoke="[:invoke:]" type="response" method="POST" ctype="text/xml" 
+	to="SMOI.ES00.0" ret="0" />
+
+	<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+	<soapenv:Body>
+	<ns1:do_AdjustBalanceResponse
+	xmlns:ns1="http://www.asiainfo.com/obd/InfoSyncDefines.obd"
+	xmlns:ns0="http://www.asiainfo.com/obd/CommonComponents.obd">
+	<ns1:sResult>
+	<ns0:_so_nbr>PCM@20150902181111;20150902;182605;650</ns0:_so_nbr>
+	<ns0:_bos_so_nbr>15090240791609</ns0:_bos_so_nbr>
+	<ns0:_finish_date>2015-09-02T18:26:05</ns0:_finish_date>
+	<ns0:_result_code>1000000</ns0:_result_code>
+	</ns1:sResult>
+	<ns1:SBalanceAdjustResponse>
+	<ns0:_book_item>100000001</ns0:_book_item>
+	<ns0:_amount_after>22544</ns0:_amount_after>
+	<ns0:_days_request>5</ns0:_days_request>
+	<ns0:_days_adjust>5</ns0:_days_adjust>
+	<ns0:_acct_id>933524732172921</ns0:_acct_id>
+	<ns0:_user_id>200000000230</ns0:_user_id>
+	<ns0:_phone_id>0933524732</ns0:_phone_id>
+	<ns0:_valid_date>2015-07-09T17:29:32</ns0:_valid_date>
+	<ns0:_expiredate_after>2016-01-27T23:59:59</ns0:_expiredate_after>
+	<ns0:_expiredate_before>2016-01-22T23:59:59</ns0:_expiredate_before>
+	<ns0:_amount_before>22444</ns0:_amount_before>
+	<ns0:_amount_request>100</ns0:_amount_request>
+	<ns0:_amount_adjust>100</ns0:_amount_adjust>
+	</ns1:SBalanceAdjustResponse>
+	</ns1:do_AdjustBalanceResponse>
+	</soapenv:Body>
+	</soapenv:Envelope>
+
+
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

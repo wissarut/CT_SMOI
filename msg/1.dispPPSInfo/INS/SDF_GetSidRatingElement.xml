@@ -1,0 +1,42 @@
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES03.SDF" to="SMOI.ES00.SMOI" name="HTTP" type="response" ctype="text/plain" invoke="[:invoke:]" ecode="0" method="POST" url="" ret="0"
+	val="{
+
+    &quot;resultCode&quot;:&quot;20000&quot;,
+    &quot;resultDescription&quot;:&quot;Success&quot;,
+    &quot;sidRatingElement&quot;:[
+        {
+            &quot;dn&quot;:&quot;sidRatingElem=$sidRatingElem,o=ratingElements,o=sid,o=nss,o=services,o=AIS,DC=C-NTDB &quot;,
+            &quot;objectClass&quot;:&quot;sidRatingElement&quot;,
+            &quot;sidRatingRuleXML&quot;:&quot;&quot;,
+            &quot;sidGlobalRatingInfoDN&quot;:&quot;&quot;,
+            &quot;effectiveDate&quot;:&quot;&quot;,
+            &quot;expirationDate&quot;:&quot;&quot;,
+            &quot;activePeriod&quot;:&quot;&quot;,
+            &quot;priority&quot;:&quot;&quot;,
+            &quot;sidPrice&quot;:&quot;&quot;,
+            &quot;sidBillingInfo&quot;:&quot;25|1|100|0|0|1|1&quot;,
+            &quot;sidBasicPrice&quot;:&quot;2500&quot;,
+            &quot;sidValidTimeUnits&quot;:&quot;&quot;,
+            &quot;sidValidInputOctets&quot;:&quot;&quot;,
+            &quot;sidValidOutputOctets&quot;:&quot;&quot;,
+            &quot;sidValidTotalOctets&quot;:&quot;&quot;,
+            &quot;sidCurrencyCode&quot;:&quot;&quot;,
+            &quot;sidScaleFactor&quot;:&quot;&quot;,
+            &quot;sidRateElement&quot;:&quot;&quot;,
+            &quot;sidAdviceOfChargeNotif&quot;:&quot;&quot;,
+            &quot;sidFinalUnitRedirect&quot;:&quot;&quot;,
+            &quot;sidSyncMgmt&quot;:&quot;TRUE&quot;,
+            &quot;sidChargeableCounters&quot;:[&quot;1,mainBalance&quot;,&quot;2,mainReward&quot;],
+            &quot;shareable&quot;:&quot;TRUE&quot;
+        }
+    ]
+
+}
+">
+
+	</EquinoxRawData>
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

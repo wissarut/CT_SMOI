@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="tis-620" ?>
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES05.SMOI.0" name="HTTP" invoke="[:invoke:]" type="response" method="POST" ctype="text/xml" 
+	to="SMOI.ES00.0" ret="0" url="/vsmpalias/Web/Services/SubscriberWebService.asmx"/>
+
+	<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+		<soap:Body>
+			<ModifyCounterResponse xmlns="http://vsmp.ais.co.th/webservices/">
+				<ModifyCounterResult>
+					<IsSuccess>true</IsSuccess>
+					<Code>VSMP-00000000</Code>
+					<Description>OK.</Description>
+					<TransactionID />
+					<OrderRef>Modify CNTR Pack</OrderRef>
+				</ModifyCounterResult>
+			</ModifyCounterResponse>
+		</soap:Body>
+	</soap:Envelope>
+
+
+
+
+
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

@@ -1,0 +1,8 @@
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES05.SMOI.0" name="HTTP" invoke="1" type="request" method="POST" ctype="text/plain" 
+	to="SMOI.ES00.0" ret="0" val="page= setPPSReward&amp;ms=66812662699&amp;ssid=50552&amp;sgw=010&amp;prmMoney=1000"/>
+
+	<EquinoxInstance>
+		<value val="" />
+	</EquinoxInstance>
+</EquinoxMessage>

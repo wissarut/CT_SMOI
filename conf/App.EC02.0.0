@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="tis-620" ?>
+<configuration>
+	<cold>
+	  <HomeDirectory value="/" />
+	  <Application group="INGW_SQA" service="0" instance="0" />
+	  <Listener port="8898" backlog="256"/>
+	  <Library directory="/lib/" name="SSBAPI_CT_1.0-0.1.00.jar" function="phoebe.eqx.smoi.control.SmoiMain" />
+	  <ECProperties>
+
+			<ThreadPool value="2" />
+			<AutoCpuUtilize value="true"/>
+			<CpuUtilizeList value="4,5,6,7,8,9,10,11,12,13,14,15,16"/>
+			<JavaOption value="-server"/>
+			<JavaOption value="-XX:CompileThreshold=1000"/>
+			<JavaOption value="-XX:ThreadStackSize=65535"/>
+			<JavaOption value="-XX:MainThreadStackSize=65535"/>
+			<JavaOption value="-Xms1G"/>
+			<JavaOption value="-Xmx1G"/>
+			<JavaOption value="-Djavax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom=com.sun.org.apache.xpath.internal.jaxp.XPathFactoryImpl"/>
+			<JavaOption value="-Djava.version=1.6"/>
+
+			<JavaLibrary value="ec02_library_3.3.7.jar"/>
+			<JavaLibrary value="gson-2.2.2.jar"/>
+			<JavaLibrary value="log4j-1.2.15.jar"/>
+			<JavaLibrary value="joda-time-2.8.2.jar"/>
+			<JavaLibrary value="json-simple-1.1.1.jar"/>
+			<JavaLibrary value="simple-xml-2.7.1.jar"/>
+
+	</ECProperties>
+	</cold>
+	<warm>
+
+		<SFLOG value="FATAL|WARN|ERROR|INFO|DEBUG" />
+		<AFLOG value="FATAL|WARN|ERROR|INFO|DEBUG" />
+		<StatInterval value="2" />
+		<HousekeeperInterval value="10" />
+		<RestartDelay value="10" />
+
+		<ServerMaxSession value="512" />
+		<ServerReadTimeout value="30" />
+		<ServerWriteTimeout value="30" />
+		<ServerIdleTimeout value="7200" />
+
+		<IncomingMsgDecode value="true" />
+		<OutgoingMsgEncode value="true" />
+		<IncomingMsgTrim value="false" />
+		<OutgoingMsgTrim value="true" />
+
+		<!-- Logs Interface -->
+		<LogName-Summary value="SMOI_Summary"/>
+        <LogName-Detail value="SMOI_Details"/>
+
+		<!-- 0=Disabled,1=Error Only,2=Enabled -->
+		<DETAIL_LOG-Enabled value="2" />
+ 		<DETAIL_LOG-RawData-Enabled value="true" />
+  		<DETAIL_LOG-Data-Enabled value="true" />
+
+		<!-- Expire Time (.sec) -->
+		<Request-Expire value="10" />
+		<Profile-Expire value="10" />
+
+		<!-- Severs Timeout (Sec.) -->
+		<Tm-DS2A value="10" />
+		<Tm-AMF value="10" />
+		<Tm-USMP value="10" />
+		<Tm-SSB value="10" />
+		<Tm-RMF value="10" />
+		<Tm-SRFC value="10" />
+		<Tm-SMOI_FET value="10" />
+		<Tm-PPGW_FET value="10" />
+		<Tm-BSSBroker value="10" />
+		<Tm-BOS value="10" />
+		<Tm-BMP value="10" />
+		<Tm-SDF value="10" />
+		<Tm-TMF value="10" />
+		<Tm-E01 value="10" />
+		<Tm-RMF-Confirmation value="4" />
+
+		<!-- Severs Interface -->
+		<Resource-Name-Active-DS2A value="INGW_SQA.ES03.DS2A" />
+		<Resource-Name-Active-AMF value="INGW_SQA.ES03.AMF" />
+		<Resource-Name-Active-USMP value="INGW_SQA.ES04.USMP" />
+		<Resource-Name-Active-SSB value="INGW_SQA.ES04.SSB" />
+		<Resource-Name-Active-RMF value="INGW_SQA.ES04.RMF" />
+		<Resource-Name-Active-BMP value="INGW_SQA.ES04.BMP" />
+		<Resource-Name-Active-SRFC value="INGW_SQA.ES06.SRFC" />
+        <Resource-Name-Active-SMOI_FET value="INGW_SQA.ES04.SMOI" />
+        <Resource-Name-Active-PPGW_FET value="INGW_SQA.ES04.PPGW" />
+        <Resource-Name-Active-BSSBroker value="INGW_SQA.ES04.BSSBROKER" />
+        <Resource-Name-Active-BOS value="INGW_SQA.ES06.BOS" />
+		<Resource-Name-Active-SDF value="INGW_SQA.ES04.SDF" />
+		<Resource-Name-Active-TMF value="INGW_SQA.ES06.TMF" />
+
+		<!-- Resource Name Standby Configuration -->
+		<Resource-Name-Standby-DS2A value="INGW_SQA.ES03.Standby-DS2A" />
+        <Resource-Name-Standby-SMOI_FET value="INGW_SQA.ES04.Standby-SMOI" />
+        <Resource-Name-Standby-PPGW_FET value="INGW_SQA.ES04.Standby-PPGW" />
+        <Resource-Name-Standby-BSSBroker value="INGW_SQA.ES04.Standby-BSSBROKER" />
+        <Resource-Name-Standby-BOS value="INGW_SQA.ES06.Standby-BOS" />
+
+        <Resource-Name-Standby-DS2A-MaxRetry value="1" />
+        <Resource-Name-Standby-SMOI_FET-MaxRetry value="0" />
+        <Resource-Name-Standby-PPGW_FET-MaxRetry value="0" />
+        <Resource-Name-Standby-BSSBroker-MaxRetry value="0" />
+        <Resource-Name-Standby-BOS-MaxRetry value="0" />
+		<Resource-Name-Standby-E01-MaxRetry value="0" />
+		<Resource-Name-Standby-AMF-MaxRetry value="1" />
+		<Resource-Name-Standby-USMP-MaxRetry value="1" />
+
+		 <!-- SMOI Configuration -->
+        <INGW_SMOI-Origin-Host value="smoi-Origin-Host" />
+        <INGW_SMOI-Origin-Realm value="smoi-Origin-Realm" />
+
+		<!-- BOS Configuration -->
+        <BOS-Destination-Host value ="bos-Destination-Host" />
+        <BOS-Destination-Realm value ="bos-Destination-Realm" />
+        <BOS-Location value ="BOS,BOCBF,3BOSC,3BOCB" />
+		<CCR-Access-Method value="2" />
+        <Resource-Id-PRMMONEY value="10210000" />
+        <Resource-Id-PRMSM value="17210000" />
+        <Resource-Id-PRMMINUTE value="11210000" />
+        <Resource-Id-FREECALLTIMES value="11210000" />
+        <Resource-Id-FREERBTSONG value="2921DDDD" />
+		<Set-PPSReward-BOS-DCC value="false" />
+
+		<!-- SRFC Configuration -->
+		<SRFC-Origin-Host value="asiainfo-linkage" />
+		<SRFC-Origin-Realm value="toro.ais.co.th" />
+        <SRFC-Destination-Realm value="BOS.ais-realm.com" />
+
+		<!-- Interstellar Configuration -->
+		<INS-Location value="INS,INS2,INS3" />
+
+		<!-- CountID Charging Configuration -->
+		<CountID-Charging value="200010" />
+
+		<!-- AddScrScreenNo Configuration -->
+		<Add-Call-Screen-No  value ="022719271,022719000" />
+
+		<!-- Workorder Lang Configuration -->
+		<Workorder-Lang-Mapping value="1|THA,2|ENG" />
+
+		<!-- DispScreenNo Configuration -->
+		<Disp-Screen-No-Filter-Out value="66819000131,66819000122" />
+
+		<!-- URL USMP ModifySubscriber Configuration -->
+		<URL-USMP-ModifySubscriber value ="http://10.252.160.104/vsmpalias/Web/Services/SubscriberWebService.asmx" />
+
+		<!-- URL USMP FirstActivate Configuration -->
+		<URL-USMP-FirstActivate value ="http://10.252.160.104/WifiOffload/Web/Services/InterstellarWebService.asmx?op=FirstActivate" />
+
+		<!-- URL USMP InquirySubscriberInfo Configuration -->
+		<URL-USMP-InquirySubscriberInfo value ="http://10.252.160.104/vsmpalias/Web/Services/SubscriberWebService.asmx" />
+
+		<!-- URL USMP ModifyCounter Configuration -->
+		<URL-USMP-ModifyCounter value ="http://10.252.160.104/WifiOffload/Web/Services/AMFWebService.asmx" />
+
+		<!-- URL USMP InquiryCounter Configuration -->
+		<URL-USMP-InquiryCounter value ="http://10.252.160.104/WifiOffload/Web/Services/AMFWebService.asmx" />
+
+		<!-- URL BMP CallScreening Configuration -->
+		<URL-BMP-Service value ="http://10.104.168.33:7782/services/SCPInterfaceBusinessMgrService" />
+
+		<!-- URL-SSB-WorkOrder Configuration -->
+		<URL-SSB-WorkOrder value ="/api/v1/FirstActivate" />
+
+		<!-- URL-RMF-RewardMonitoring Configuration -->
+		<URL-RMF-RewardMonitoring value ="/api/v1/rmf/rewardMonitoring.json" />
+		
+		<!-- URL-RMF-RewardOffering Configuration -->
+		<URL-RMF-RewardOffering value ="/api/v1/rmf/rewardOffering.json" />
+		
+		<!-- URL-RMF-rewardAdjustment Configuration -->
+		<URL-RMF-RewardAdjustment value ="/api/v1/rmf/rewardAdjustment.json" />
+
+		<!-- INS-SSB-Channel Configuration -->
+		<INS-SSB-Channel value ="INS" />
+
+		<!-- CountID-Prmmoneyid Configuration -->
+		<CountID-Prmmoneyid  value = "200100,200500" />
+
+		<!-- Report-80-Name Configuration -->
+		<Report-80-POS-Name  value = "report80POS" />
+		<Report-80-PPS-Name  value = "report80PPS" />
+
+		<!-- Default RefillStopTime Month Configuration -->
+		<Default-RefillStopTime-Month  value = "8" />
+
+		<!-- ModiValidity-TMF-Flag Configuration -->
+		<ModiValidity-TMF-Flag  value="0" />
+
+		<!-- CountID-Monetaryusagereward Configuration -->
+		<CountID-Monetaryusagereward value = "200501,299999" />
+
+		<!-- TMF Diameter Configuration -->
+		<TMF-Destination-Host value ="sand" />
+		<TMF-Destination-Realm value="sand.ais.co.th" />
+		
+		<!-- Service-Type-Mapping Configuration (Multi) -->
+		<Service-Type-Mapping value="0,Voice" />
+		<Service-Type-Mapping value="1,SMS" />
+		<Service-Type-Mapping value="2,GPRS" />
+		<Service-Type-Mapping value="3,MMS" />
+		
+		<RMF-SMOI-IP value="10.252.177.38" />
+		<RMF-SMOI-PORT value="7023" />
+		
+		<Default-prmmoneyName value="Reward Balance" />
+		<Default-prmmoneyusageName value="Monetary Usage Balance" />
+		
+		<INS-Free-Resource-Default-Adjust-Validity value="30" />
+		
+		<INS-Default-PackName-prmSM value="aa" />
+		<INS-Default-PackName-prmMinute value="aa" />
+		
+		<RMF-Adjust-Balance value="1000" />
+		
+		<INS-Resource-Id-PRMMONEY value="10210000" />
+		
+		
+		
+	</warm>
+
+</configuration>

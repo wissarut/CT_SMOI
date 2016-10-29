@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="tis-620" ?>
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES04.BSS.0" name="HTTP" invoke="[:invoke:]" type="response" method="POST" ctype="text/xml" 
+	to="SMOI.ES00.0" ret="0" />
+
+				<Session-Id value="0:3527963986:GatewayService-4-13-0.1317981590;57.20130116104105"/>
+				<Origin-Host value="test.ais.com"/>
+				<Origin-Realm value="test.ais.com"/>
+				<Auth-Application-Id value="16777238"/>
+				<CC-Request-Type value="1"/>
+				<CC-Request-Number value="0"/>
+				<Origin-State-Id value="19"/>
+				<Result-Code value="2001"/>
+				<Bearer-Control-Mode value="0"/>
+				<Revalidation-Time value="3567314468"/>
+
+
+	
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

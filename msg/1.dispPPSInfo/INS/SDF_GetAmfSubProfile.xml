@@ -1,0 +1,9 @@
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES03.SDF" to="SMOI.ES00.SMOI" name="HTTP" type="response" ctype="text/plain" invoke="[:invoke:]" ecode="0" method="POST" url="" ret="0"
+	val="{&quot;resultCode&quot;:&quot;20000&quot;,&quot;resultDescription&quot;:&quot;Success&quot;,&quot;amfSubProfile&quot;:[{&quot;dn&quot;:&quot;subdata=amfProfile,subdata=profile,ds=amf,subdata=services,uid=668961423492394,ds=SUBSCRIBER,o=AIS,DC=C-NTDB&quot;,&quot;subdata&quot;:&quot;amfProfile&quot;,&quot;objectClass&quot;:&quot;amfSubProfile&quot;,&quot;subscriptionState&quot;:&quot;active&quot;,&quot;meteringMethod&quot;:&quot;duration&quot;,&quot;firstModifiedTime&quot;:&quot;20160711145601+0700&quot;,&quot;lastModifiedTime&quot;:&quot;20160809230810+0700&quot;,&quot;registrationDate&quot;:&quot;20160711145601+0700&quot;,&quot;expirationDate&quot;:&quot;20660711145601+0700&quot;,&quot;amfProductRunningNo&quot;:&quot;1010&quot;}]}">
+
+	</EquinoxRawData>
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

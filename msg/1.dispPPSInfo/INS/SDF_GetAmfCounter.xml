@@ -1,0 +1,25 @@
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES03.SDF" to="SMOI.ES00.SMOI" name="HTTP" type="response" ctype="text/plain" invoke="[:invoke:]" ecode="0" method="POST" url="" ret="0"
+	val="{
+ 
+    &quot;resultCode&quot;:&quot;20000&quot;,
+    &quot;resultDescription&quot;:&quot;Success&quot;,
+    &quot;amfCounter&quot;:[
+        {
+            &quot;dn&quot;:&quot; counterId=200010,subdata=profile,ds=amf,subdata=services,uid=669238007000000,ds=SUBSCRIBER,o=AIS,DC=C-NTDB &quot;,
+            &quot;objectCless&quot;:&quot;amfCounter&quot;,
+            &quot;counterType&quot;:&quot;128&quot;,
+            &quot;counterValue&quot;:&quot;1&quot;,
+            &quot;counterId&quot;:&quot;200010&quot;
+               ,&quot;personalization&quot;: [&quot;inheritedFrom=1,abc|5&quot;,
+&quot;productOffer=rewardtype|1.0.0&quot;] 
+        }
+    ]
+ 
+}">
+
+	</EquinoxRawData>
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="tis-620" ?>
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES05.SMOI.0" name="HTTP" invoke="[:invoke:]" type="response" method="POST" ctype="text/xml" 
+	to="SMOI.ES00.0" ret="0" url="/wifioffload/web/services/Interstellarwebservice.asmx"/>
+
+		<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<soap:Body>
+		<FirstActivateResponse xmlns="http://vsmp.ais.co.th/webservices/">
+			<FirstActivateResult>
+				<OperationStatus>
+					<IsSuccess>true</IsSuccess>
+					<Code>VSMP-00000000</Code>
+					<Description>OK.</Description>
+					<TransactionID>201608241625003559844</TransactionID>
+					<OrderRef>50192000072118170708</OrderRef>
+				</OperationStatus>
+				<NumCounter>1</NumCounter>
+				<CounterArray>
+					<CounterInfo>
+						<Msisdn>66933516332</Msisdn>
+						<ProductNumber>1003</ProductNumber>
+						<CounterName>PeakOffPeak_Enterprise2</CounterName>
+						<EParameterReplenishment>99|1|100|0|0|1|1</EParameterReplenishment>
+						<PoliteDegree>0</PoliteDegree>
+						<SyncManagementFlag>1</SyncManagementFlag>
+						<StartTime>2016-08-24T16:34:59.0000000+07:00</StartTime>
+						<LockTime xsi:nil="true" />
+						<CounterState>1</CounterState>
+						<ExpiryTime>2016-08-24T16:34:59.0000000+07:00</ExpiryTime>
+						<ExpiryT2>5184000</ExpiryT2>
+						<ExpiryRecurringFlag>1</ExpiryRecurringFlag>
+						<ExpiryNotificationTime>1970-01-01T07:00:00.0000000+07:00</ExpiryNotificationTime>
+						<PersistentCycleFlag>1</PersistentCycleFlag>
+						<LifeCycle>3</LifeCycle>
+						<CycleNumber>1</CycleNumber>
+						<TimeResolution>1</TimeResolution>
+						<RollOverFlag>0</RollOverFlag>
+						<RefillStopTime>2056-03-12T13:28:15.0000000+07:00</RefillStopTime>
+						<ExtendRefillStopFlag>1</ExtendRefillStopFlag>
+						<RefillNotifyTime>1970-01-01T07:00:00.0000000+07:00</RefillNotifyTime>
+						<ValueNotifyTime xsi:nil="true" />
+						<TemplateVersion>1.0.0</TemplateVersion>
+						<NumChildCounter>1</NumChildCounter>
+						<StartTimeOper />
+						<ExpiryTimeOper />
+						<MarketingName>PeakOffPeak_Enterprise2</MarketingName>
+						<MKTProductOfferThai />
+						<MKTProductOfferEng />
+						<MainPromotionF>1</MainPromotionF>
+						<InterlockCode />
+						<FriendIds />
+						<SharerIds />
+						<PahIdentity />
+						<PahProductNo />
+						<RechargeOnDepletion />
+						<Shareable />
+						<SharingMode />
+						<ChildCounterArray>
+							<ChildCounterInfo>
+								<CounterId>1</CounterId>
+								<WappId>66Aany$</WappId>
+								<EParameterServiceCharging>1379|600|100|0|0|10|0</EParameterServiceCharging>
+								<MinimumUnit>0</MinimumUnit>
+								<ReplenishValue>2147483647</ReplenishValue>
+								<ValueType>gprs</ValueType>
+								<CounterValue>2147483647</CounterValue>
+								<ReserveValue>0</ReserveValue>
+								<ReserveExpiryTime>1970-01-01T07:00:00.0000000+07:00</ReserveExpiryTime>
+								<CDSEParam>unknown</CDSEParam>
+								<WSubTtType>any</WSubTtType>
+								<MappingWSubttType>Internet</MappingWSubttType>
+								<MeteringMethod>volume</MeteringMethod>
+								<WTime>any</WTime>
+								<BlockId />
+								<Shareable />
+								<CounterHistory />
+								<ActivePeriod>3|00000000FFFFFFFFFFFFFF00</ActivePeriod>
+								<CounterType>voicemonetary</CounterType>
+								<WObjTon1>any</WObjTon1>
+								<FreeResourceId xsi:nil="true" />
+								<FreeResourceName xsi:nil="true" />
+							</ChildCounterInfo>
+						</ChildCounterArray>
+					</CounterInfo>
+				</CounterArray>
+			</FirstActivateResult>
+		</FirstActivateResponse>
+	</soap:Body>
+</soap:Envelope>
+
+
+	
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

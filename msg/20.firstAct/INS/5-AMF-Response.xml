@@ -1,0 +1,10 @@
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="5024555391:DCCR.ES05.SGSCP.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOISQA.ES03.AMF" to="SMOI.ES00.SMOI" oid="0.0.17.1218.8.7.2" name="LDAP" type="response" ctype="extended" invoke="[:invoke:]" ecode="0" method="POST" ret="0">
+	
+		<AVP type="methodVersion"><vals value="4" /></AVP>
+			
+	</EquinoxRawData>
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

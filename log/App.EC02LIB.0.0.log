@@ -1,0 +1,153 @@
+INFO|17:26:02|main|EC02Server|-1|EC02 :: Library Version --> null
+INFO|17:26:02|main|EC02Server|-1|application level ready
+DEBUG|17:26:02|1:SMOI.ES05.SMOI.0|EC02Handler|-1|
+#====> Incoming Message :<?xml version="1.0" encoding="tis-620" ?><EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">	<EquinoxRawData orig="SMOI.ES05.SMOI.0" name="ES00" invoke="1" type="request" method="POST" ctype="text/plain" 	to="SMOI.ES00.0" ret="0" val="page=activatePPSSingSub&amp;sgw=athena&amp;lang=11&amp;ssid=50192000072118170708&amp;channel=34343"/>	<EquinoxInstance>		<value val="" />	</EquinoxInstance></EquinoxMessage>
+DEBUG|17:26:02|1:SMOI.ES05.SMOI.0|EC02Controller|-1|=== >> INCOMING DATA
+-->applicationName  :  INGW_SQA
+-->session  : 1:SMOI.ES05.SMOI.0
+-->via  : SMOI.E11.0
+-->from  : SMOI.E11.0
+-->diag  : 
+-->state  : IDLE
+-->timeout  : 10
+
+-->rawdata(s)  : 1
+-->raw data index : 0
+	-->raw event type : Unknown
+	-->messsage : 	
+	-->val : page=activatePPSSingSub&sgw=athena&lang=11&ssid=50192000072118170708&channel=34343
+	-->ret : 0
+	-->to : SMOI.ES00.0
+	-->invoke : 1
+	-->name : ES00
+	-->ctype : text/plain
+	-->method : POST
+	-->orig : SMOI.ES05.SMOI.0
+	-->type : request
+DEBUG|17:26:02|1:SMOI.ES05.SMOI.0|AFProxy|-1|extract instance completed :: 109
+DEBUG|17:26:02|1:SMOI.ES05.SMOI.0|AFProxy|-1|extract raw data completed ::0
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|SmoiMain|41|[CURRENT STATE] : IDLE
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|AppInfo|36|
+===================================================================
+   Incomming Message
+===================================================================
+   Timestamp     : 2016-10-28 17:26:02
+   is Timeout    : false 
+   is E01 Data   : false
+   count EQX Msg : 1
+===================================================================
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|IncomingManager|39|App Infomation Debug [IncommingInfo]
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|ExtractController|34|extract class : In_Idle_Request
+AERROR|17:26:02|1:SMOI.ES05.SMOI.0|In_Idle_RequestParser|120|[Missing] ms is null
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|AppInfo|76|
+===================================================================
+  Extract Info @invoke : 1
+===================================================================
+  isEDBPurge     : false 
+  isDelayResp    : false 
+  isRetNormal    : true 
+  isValid		 : false [ABNORMAL]
+  resultCode     : Client_send_Bad_request
+===================================================================
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|ExtractController|179|App Infomation Debug [ExtractInfo]
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|ExtractController|280|App Infomation Debug [Input]
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|IncomingManager|114|##### Sub Instance Key : 1ACTIVATEPPSSINGSUB #####
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|ConstructController|47|KeySearch FinalCode [1] : activatePPSSingSubIdle_RequestClient_send_Bad_request
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|ConstructController|68|Result Search FinalCode : ACPPS_IDLE_BAD
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|ConstructController|74|Construct class : Out_End_ActivatePPSSingSub
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|ConstructController|197|App Infomation Debug [Output]
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|IncomingManager|208|DETAIL LOG Print :SESSIONID=1:SMOI.ES05.SMOI.0|INVOKE=1|STATE=Idle_Request|MSISDN=null|COMMAND=activatePPSSingSub|INPUT=page=activatePPSSingSub&sgw=athena&lang=11&ssid=50192000072118170708&channel=34343|NEXTSTATE=End_activatePPSSingSub|OUTPUT=<vcrr><res>322</res><desc>INGateway Send HTTP Incomplete Data Response</desc></vcrr>|RESULTCODE=322|DESC=INGateway Send HTTP Incomplete Data Response
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|IncomingManager|210|App Infomation Debug [Detail]
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|IncomingManager|219|App Infomation Debug [Info]
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|IncomingManager|125|##### End Sub Instance Key : 1ACTIVATEPPSSINGSUB #####
+DEBUG|17:26:02|1:SMOI.ES05.SMOI.0|EquinoxUtilities|-1|increment stat
+DEBUG|17:26:02|1:SMOI.ES05.SMOI.0|EquinoxUtilities|-1|increment stat
+DEBUG|17:26:02|1:SMOI.ES05.SMOI.0|EquinoxUtilities|-1|write log
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|LogStatController|63|[Detail] Write Detail Log !
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|SummaryLog|56|App Infomation Debug [Summary]
+DEBUG|17:26:02|1:SMOI.ES05.SMOI.0|EquinoxUtilities|-1|write log
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|LogStatController|76|[Summary] Write Summary Log !
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|IncomingManager|143|
+===================================================================
+ Session Information @ Lib Version : SSBAPI_CT_1.0-0.1.00.jar
+===================================================================
+ Session           : 1:SMOI.ES05.SMOI.0
+ SubIns Processing : 0
+ SubIns Waiting    : 0
+===================================================================
+ Equinox Raw Data Information
+-------------------------------------------------------------------
+  Invoke   : 1
+  Ret      : 0
+  Orig     : SMOI.ES05.SMOI.0
+  Protocol : ES00
+  Type     : request
+  CType    : text/plain
+  Method   : POST
+  Url      : 
+  Data     : page=activatePPSSingSub&sgw=athena&lang=11&ssid=50192000072118170708&channel=34343
+  Stat-In  : INGateway Receive HTTP ActivatePPSSingSub Request
+-------------------------------------------------------------------
+  Invoke   : 1
+  To       : SMOI.ES05.SMOI.0
+  Protocol : HTTP
+  Type     : response
+  CType    : text/xml
+  Data     : <vcrr><res>322</res><desc>INGateway Send HTTP Incomplete Data Response</desc></vcrr>
+  Stat-out : INGateway Send HTTP ActivatePPSSingSub Response Incomplete Data
+-------------------------------------------------------------------
+===================================================================
+ SubInstance Information
+-------------------------------------------------------------------
+  SunIns No.       : 1ACTIVATEPPSSINGSUB
+  Init Command     : activatePPSSingSub
+  Current State    : Idle_Request
+  Next State       : End_activatePPSSingSub
+---------------------------------------------------------------------
+===================================================================
+ Log Detail & Summary
+-------------------------------------------------------------------
+  Detail     : SESSIONID=1:SMOI.ES05.SMOI.0|INVOKE=1|STATE=Idle_Request|MSISDN=null|COMMAND=activatePPSSingSub|INPUT=page=activatePPSSingSub&sgw=athena&lang=11&ssid=50192000072118170708&channel=34343|NEXTSTATE=End_activatePPSSingSub|OUTPUT=<vcrr><res>322</res><desc>INGateway Send HTTP Incomplete Data Response</desc></vcrr>|RESULTCODE=322|DESC=INGateway Send HTTP Incomplete Data Response
+-------------------------------------------------------------------
+  Summary    : SESSION=1:SMOI.ES05.SMOI.0|INVOKE=1|MSISDN=null|COMMAND=activatePPSSingSub|RESULTCODE=322|DESC=INGateway Send HTTP Incomplete Data Response|RESPONSE_TIME=37
+-------------------------------------------------------------------
+===================================================================
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|TimeoutManager|111|preTimeout after loop sub ins = 2017-10-28T17:26:02.363+07:00
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|TimeoutManager|113|timeStampIn : 2016-10-28T17:26:02.363+07:00
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|TimeoutManager|117|preTimeout - timeStampIn = diffTimeout : 31536000
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|TimeoutManager|126|diffTimeout > 1
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|TimeoutManager|139|set timeout = 30000000
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|TimeoutManager|143|COUNT WAIT : 0
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|TimeoutManager|144|COUNT PRO  : 0
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|SmoiMain|64|[NEXT STATE] : IDLE
+ADEBUG|17:26:02|1:SMOI.ES05.SMOI.0|SmoiMain|68|[TIMEOUT] : 0
+DEBUG|17:26:02|1:SMOI.ES05.SMOI.0|AFProxy|-1|action process completed :: 102
+DEBUG|17:26:02|1:SMOI.ES05.SMOI.0|AFProxy|-1|construct rawdata completed :: 0
+DEBUG|17:26:02|1:SMOI.ES05.SMOI.0|AFProxy|-1|compose instance completed :: 193
+DEBUG|17:26:02|1:SMOI.ES05.SMOI.0|EC02Controller|-1|=== >> OUTGOING DATA
+-->applicationName  :  INGW_SQA
+-->session  : 1:SMOI.ES05.SMOI.0
+-->via  : SMOI.E11.0
+-->from  : INGW_SQA.ES00
+-->diag  : 
+-->state  : IDLE
+-->timeout  : 0
+
+-->rawdata(s)  : 1
+-->raw data index : 0
+	-->raw event type : Unknown
+	-->messsage : <vcrr><res>322</res><desc>INGateway Send HTTP Incomplete Data Response</desc></vcrr>
+	-->to : SMOI.ES05.SMOI.0
+	-->invoke : 1
+	-->name : HTTP
+	-->ctype : text/xml
+	-->method : POST
+	-->type : response
+DEBUG|17:26:02|1:SMOI.ES05.SMOI.0|MessageBuilder|-1|Log called : 2
+DEBUG|17:26:02|1:SMOI.ES05.SMOI.0|MessageBuilder|-1|Stat called : 2
+DEBUG|17:26:02|1:SMOI.ES05.SMOI.0|EC02Handler|-1|
+#====> Outgoing Message is:<?xml version="1.0" encoding="tis-620" ?><EquinoxMessage diag="" from="INGW_SQA.ES00" ret="10" session="1:SMOI.ES05.SMOI.0" via="SMOI.E11.0" timeout="0" ><EquinoxRawData to="SMOI.ES05.SMOI.0" invoke="1" name="HTTP" ctype="text/xml" method="POST" type="response" ><vcrr><res>322</res><desc>INGateway Send HTTP Incomplete Data Response</desc></vcrr></EquinoxRawData><EquinoxRawData to="INGW_SQA.E06.0" name="EQLOG" type="noreply" ><log name="SMOI_Details" value="SESSIONID=1:SMOI.ES05.SMOI.0|INVOKE=1|STATE=Idle_Request|MSISDN=null|COMMAND=activatePPSSingSub|INPUT=page=activatePPSSingSub&amp;sgw=athena&amp;lang=11&amp;ssid=50192000072118170708&amp;channel=34343|NEXTSTATE=End_activatePPSSingSub|OUTPUT=&lt;vcrr&gt;&lt;res&gt;322&lt;/res&gt;&lt;desc&gt;INGateway Send HTTP Incomplete Data Response&lt;/desc&gt;&lt;/vcrr&gt;|RESULTCODE=322|DESC=INGateway Send HTTP Incomplete Data Response"/><log name="SMOI_Summary" value="SESSION=1:SMOI.ES05.SMOI.0|INVOKE=1|MSISDN=null|COMMAND=activatePPSSingSub|RESULTCODE=322|DESC=INGateway Send HTTP Incomplete Data Response|RESPONSE_TIME=37"/></EquinoxRawData><EquinoxRawData to="INGW_SQA.E04.0" name="EQSTAT" type="noreply" ><stats name="INGateway Receive HTTP ActivatePPSSingSub Request Missing" type="increment"/><stats name="INGateway Send HTTP ActivatePPSSingSub Response Incomplete Data" type="increment"/></EquinoxRawData><EquinoxInstance><value val="IDLE::eJxtjlELgjAUhf9K7LWIOUNjbyVBQq3QoOebTRnonbT5EOJ/b6ZFQq/fOd+5tyUVKEybWyqNURqTBlFhITTh3uKdXVQlUwtVHWOmK5cRThj1Ao+y9cwLOQs4ZUs/8Oc0pJQM0qauy2dv/i2z1aQc6QbtFZQlnP6Q80Nn7qkvdE/GaCxg5lbbboB7MK6Xq7K/JE7jYuygrEHdCc+hNPJDhcatNhN4ACwaKHp9J5yuTHKMkrHSvQBvOFs7::1" /></EquinoxInstance></EquinoxMessage>
+DEBUG|17:26:02|1:SMOI.ES05.SMOI.0|EC02Handler|-1|
+-->TIME,total Processing Time(msec) : 467
+-->TIME,application process (msec) :404
+-->TIME,ec02 process(msec) : 63

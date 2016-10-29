@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="tis-620" ?>
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES04.BSS.0" name="HTTP" invoke="[:invoke:]" type="response" method="POST" ctype="text/xml" 
+	to="SMOI.ES00.0" ret="0" />
+
+	<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+		<soap:Body xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+			<ns1:do_CallScreenNoResponse xmlns:ns1="http://www.asiainfo.com/obd/InfoSyncDefines.obd" xmlns:ns0="http://www.asiainfo.com/obd/CommonComponents.obd">
+				<ns1:sResult>
+					<ns0:_so_nbr>SIT201306211528</ns0:_so_nbr>
+					<ns0:_bos_so_nbr>13062132833439</ns0:_bos_so_nbr>
+					<ns0:_finish_date>2013-06-21T16:15:02</ns0:_finish_date>
+					<ns0:_result_code>1000000</ns0:_result_code>
+				</ns1:sResult>
+			</ns1:do_CallScreenNoResponse>
+		</soap:Body>
+	</soapenv:Envelope>
+
+
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

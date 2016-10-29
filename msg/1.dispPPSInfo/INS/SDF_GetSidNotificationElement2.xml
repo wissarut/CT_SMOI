@@ -1,0 +1,22 @@
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES03.SDF" to="SMOI.ES00.SMOI" name="HTTP" type="response" ctype="text/plain" invoke="[:invoke:]" ecode="0" method="POST" url="" ret="0"
+	val="{
+	&quot;resultCode&quot;: &quot;20000&quot;,
+	&quot;resultDescription&quot;: &quot;Success&quot;,
+	&quot;sidNotificationSpec&quot;: [{
+		&quot;dn&quot;: &quot;language=eng,sidNotificationElem=TEST_RW_Asia voice100_4G1GB 30Day|1.0.0|promo,o=notificationElements,o=sid,o=nss,o=services,o=AIS,DC=C-NTDB&quot;,
+		&quot;objectClass&quot;: &quot;sidNotificationSpec&quot;,
+		&quot;sidTextMessage&quot;: &quot;TEST_RW_Asia voice100_4G1GB 30Day cannot be activated. The system will try again later.&quot;
+	},
+	{
+		&quot;dn&quot;: &quot;language=tha,sidNotificationElem=TEST_RW_Asia voice100_4G1GB 30Day|1.0.0|promo,o=notificationElements,o=sid,o=nss,o=services,o=AIS,DC=C-NTDB&quot;,
+		&quot;objectClass&quot;: &quot;sidNotificationSpec&quot;,
+		&quot;sidTextUnicode&quot;: &quot;004600720065006500200033004700200049006E007400650072006E00650074002000310047004200200061006E006400200041004900530020005300550050004500520020005700690046006900200066006F00720020003700200044006100790073002E&quot;
+	}]
+}">
+
+	</EquinoxRawData>
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

@@ -1,0 +1,20 @@
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES05.SMOI.0" name="HTTP" invoke="[:invoke:]" type="response" method="POST" ctype="text/xml" 
+	to="SMOI.ES00.0" ret="0" />
+	
+		<ERDHeader>
+	<Header name="Server" value="Apache-Coyote/1.1" />
+	<Header name="X-Powered-By" value="Servlet 2.4; JBoss-4.0.5.GA (build: CVSTag=Branch_4_0 date=200610162339)/Tomcat-5.5" />
+	<Header name="X-UA-Compatible" value="IE=EmulateIE7" />
+	<Header name="Set-Cookie" value="JSESSIONID=7D2D2024BD4941ADF7965DF6FACFD8F1.server1; Path=/" />
+	<Header name="Content-Type" value="text/xml;charset=UTF-8" />
+	<Header name="Transfer-Encoding" value="chunked" />
+	<Header name="Date" value="Wed, 27 Jul 2016 0" />
+</ERDHeader>
+<ERDData value="&lt;?xml version=&apos;1.0&apos; encoding=&apos;UTF-8&apos;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soapenv:Header /&gt;&lt;soapenv:Body&gt;&lt;QuerySubCallScreenNoResultMsg xmlns=&quot;http://www.huawei.com/bme/cbsinterface/scp/businessmgrmsg&quot;&gt;&lt;ResultHeader xmlns=&quot;&quot;&gt;&lt;CommandId xmlns=&quot;http://www.huawei.com/bme/cbsinterface/common&quot;&gt;QuerySubCallScreenNo&lt;/CommandId&gt;&lt;Version xmlns=&quot;http://www.huawei.com/bme/cbsinterface/common&quot;&gt;2.0&lt;/Version&gt;&lt;TransactionId xmlns=&quot;http://www.huawei.com/bme/cbsinterface/common&quot;&gt;SGSCP_zeus_53&lt;/TransactionId&gt;&lt;SequenceId xmlns=&quot;http://www.huawei.com/bme/cbsinterface/common&quot;&gt;1&lt;/SequenceId&gt;&lt;ResultCode xmlns=&quot;http://www.huawei.com/bme/cbsinterface/common&quot;&gt;405000000&lt;/ResultCode&gt;&lt;ResultDesc xmlns=&quot;http://www.huawei.com/bme/cbsinterface/common&quot;&gt;Operation successfully. &lt;/ResultDesc&gt;&lt;/ResultHeader&gt;&lt;QuerySubCallScreenNoResult xmlns=&quot;&quot;&gt;&lt;CallScreenType xmlns=&quot;http://www.huawei.com/bme/cbsinterface/scp/businessmgr&quot;&gt;2&lt;/CallScreenType&gt;&lt;CLIRFlag xmlns=&quot;http://www.huawei.com/bme/cbsinterface/scp/businessmgr&quot;&gt;0&lt;/CLIRFlag&gt;&lt;ICSSendSMBlockNum xmlns=&quot;http://www.huawei.com/bme/cbsinterface/scp/businessmgr&quot;&gt;0&lt;/ICSSendSMBlockNum&gt;&lt;CallScreenNoInfo xmlns=&quot;http://www.huawei.com/bme/cbsinterface/scp/businessmgr&quot;&gt;&lt;callScreenNo&gt;66811234567&lt;/callScreenNo&gt;&lt;effectiveDate&gt;20160614&lt;/effectiveDate&gt;&lt;expireDate&gt;20361231&lt;/expireDate&gt;&lt;effectiveTime&gt;000000&lt;/effectiveTime&gt;&lt;expireTime&gt;235959&lt;/expireTime&gt;&lt;weekStart&gt;0&lt;/weekStart&gt;&lt;weekStop&gt;6&lt;/weekStop&gt;&lt;ListType&gt;0&lt;/ListType&gt;&lt;IRRouteFlag&gt;0&lt;/IRRouteFlag&gt;&lt;RoutingMethod&gt;0&lt;/RoutingMethod&gt;&lt;/CallScreenNoInfo&gt;&lt;NonCallScreenNoInfo xmlns=&quot;http://www.huawei.com/bme/cbsinterface/scp/businessmgr&quot;&gt;&lt;effectiveDate&gt;20160722&lt;/effectiveDate&gt;&lt;expireDate&gt;20370101&lt;/expireDate&gt;&lt;effectiveTime&gt;000000&lt;/effectiveTime&gt;&lt;expireTime&gt;235959&lt;/expireTime&gt;&lt;weekStart&gt;0&lt;/weekStart&gt;&lt;weekStop&gt;6&lt;/weekStop&gt;&lt;IRRouteFlag&gt;0&lt;/IRRouteFlag&gt;&lt;/NonCallScreenNoInfo&gt;&lt;/QuerySubCallScreenNoResult&gt;&lt;/QuerySubCallScreenNoResultMsg&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;" />
+
+		
+<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

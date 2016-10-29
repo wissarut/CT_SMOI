@@ -1,0 +1,22 @@
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="5024555391:DCCR.ES05.SGSCP.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOISQA.ES06.SRFC" to="SMOI.ES00.SMOI" name="DIAMETER" type="response" ctype="Specialized-Resource" invoke="[:invoke:]" ecode="200" ret="0" >
+
+		<Session-Id value="0:1284783846:GatewayService-4-13-1.SUK2N.awn.com;2132201511;01511"/>
+		<Redirect-Address value="http://www.connectinternet.ais.co.th/srfp/index.aspx"/>	
+		<Result-Code value="2001"/>	
+		<Error-Message value="SRFC Receive SRR Success"/>	
+		<Auth-Request-Type value="2"/>	
+		<Failed-Parameter value=""/>	
+		<Auth-Application-Id value="8676"/>	
+		<Origin-Realm value="srfc.sand.ais.co.th"/>	
+		<Origin-Host value="srfc01"/>	
+		<TORO-UI-Overwriting-Info>	
+			<Overwriting-Type value=""/>
+			<Overwriting-Data value=""/>
+		</TORO-UI-Overwriting-Info>	
+
+	</EquinoxRawData>
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

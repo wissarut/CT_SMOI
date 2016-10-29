@@ -1,0 +1,2 @@
+INGateway Receive HTTP ActivatePPSSingSub Request Missing
+INGateway Send HTTP ActivatePPSSingSub Response Incomplete Data

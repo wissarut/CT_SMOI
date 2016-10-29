@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SMOI_3.0.4-01-49:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/SMOI_3_0_4_01_49_jar</output-path>
+    <root id="archive" name="SMOI_3.0.4-01-50.jar">
+      <element id="module-output" name="CT_SMOI" />
+    </root>
+  </artifact>
+</component>

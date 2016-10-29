@@ -1,0 +1,41 @@
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES06.0" name="DIAMETER" invoke="[:invoke:]" type="response" method="POST" ctype="Credit-Control"
+	to="SMOI.ES00.0" ret="0" />
+
+	<Session-Id value=" Olympus_140@14000012014000367441" />
+	<Origin-Host value="3BOCB802" />
+	<Origin-Realm value="bos.mimo.co.th" />
+	<Result-Code value="2001" />
+	<Auth-Application-Id value="4" />
+	<CC-Request-Type value="4" />
+	<CC-Request-Number value="0" />
+	<Service-Information>
+		<IN-Information>
+			<Description value="0x53756363657373" />
+			<Account-Info>
+				<Book-Item-Id value="100000001" />
+				<Book-Item-Type value="2000" />
+				<Book-Item-Amount value="106700" />
+				<Create-Date value="0x3230313630363133313532353436" />
+				<Validity-Date value="0x3230313630363133313531373235" />
+				<Expire-Date value="0x3230333731323331323335393539" />
+				<Old-Amount value="113000" />
+				<Old-Validity value="0x30" />
+			</Account-Info>
+			<Account-Info>
+				<Book-Item-Id value="100000003" />
+				<Book-Item-Type value="4000" />
+				<Book-Item-Amount value="0" />
+				<Validity-Date value="0x3230313630363133313532353436" />
+				<Create-Date value="0x3230313630363133313532353436" />
+				<Expire-Date value="0x3230333731323331323335393539" />
+			</Account-Info>
+			<Customer-Life-Cycle-State value="0x31" />
+		</IN-Information>
+	</Service-Information>	
+
+
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

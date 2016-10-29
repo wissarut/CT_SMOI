@@ -1,0 +1,22 @@
+<EquinoxMessage from="INGW_SQA.E11.0" via="INGW_SQA.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="INGW_SQA.ES03.DS2A.0" to="INGW_SQA.ES00.0" name="LDAP" type="response" ctype="extended" invoke="[:invoke:]" ecode="0" oid="0.0.17.1218.8.7.0" ret="0">
+		<AVP type="methodVersion">
+			<vals value="10" />
+		</AVP>
+		<AVP type="resultInfo">
+			<vals value="66932080736,668961423492394,1,1,,0,,1,7,,5,awn,0,0,0,1,1,1,1,00000000000000,Idle,,,,,00000000000000,00000000000000,00000000000000,00000000000000,00000000000000,668961423492394,31500070069427" />
+		</AVP>
+		<AVP type="accountingInfo">
+			<vals value="150636,SNOVA103,66818310361,3661,,INS,,,3,0000000000000,000,0000,0000000000000,,,," />
+		</AVP>
+		<AVP type="toggledAccountingInfo">
+			<vals value=",,,,,,,,," />
+		</AVP>
+		<AVP type="prefixAccountingInfo">
+			<vals value=",,,,,,,," />
+		</AVP>
+	</EquinoxRawData>
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

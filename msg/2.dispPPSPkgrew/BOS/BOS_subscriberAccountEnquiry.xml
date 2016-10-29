@@ -1,0 +1,41 @@
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES06.0" name="DIAMETER" invoke="[:invoke:]" type="response" method="POST" ctype="Credit-Control" 
+	to="SMOI.ES00.0" ret="0" />
+
+	<Session-Id value="eservicepp@3443410934;20140424;090142;291" />
+	<CC-Request-Type value="4" />
+	<CC-Request-Number value="0" />
+	<Origin-Realm value="ETopup.ais-Realm.com" />
+	<Result-Code value="2001" />
+	<Origin-Host value="ETopup.ais-Realm.com" />
+	<Auth-Application-Id value="4" />
+	<Service-Information>
+		<IN-Information>
+			<Description value="0x30cc0e0e" />
+			<FreeRes-Info>
+				<Resource-Id value="500001" />
+				<Resource-Amount value="100000" />
+				<Remaining-Amount value="11111" />
+				<Validity-Date value="0x3230313330343235313531323134" />
+				<Expire-Date value="0x3230313730343232303030303030" />
+				<Resource-Group-ID value="112011111" />
+				<Product-ID value="1234" />
+				<Product-Sequence-ID value="1234" />
+				<Resource-Mode value="1234" />
+			</FreeRes-Info>
+			<Active-Period value="0x3230313330343232303030303030" />
+			<Suspend-Period value="0x3230313330353232323034383135" />
+			<Disable-Period value="0x3230313330363033303030303030" />
+			<Customer-Life-Cycle-State value="0x31" />
+			<Max-Count-Total value="300000" />
+			<Max-Validity value="365" />
+			<Fraud-Lock value="0" />
+			<Brand-Id value="2628" />
+		</IN-Information>
+	</Service-Information>
+
+
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

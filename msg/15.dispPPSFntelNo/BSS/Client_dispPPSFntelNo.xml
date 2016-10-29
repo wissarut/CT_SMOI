@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="tis-620" ?>
+<EquinoxMessage from="INGW_SQA.E11.0" via="INGW_SQA.E11.0" session="221918164:INGW_SQA.ES05.0.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="INGW_SQA.ES05.0.0" name="HTTP" invoke="221918164" type="request" method="POST" url="/" ctype="text/plain"
+		val="page=dispPPSFntelNo&amp;ms=66899010069&amp;dat=0&amp;ssid=3556&amp;sgw=010" to="INGW_SQA.ES00" ret="0" />
+
+		<EquinoxInstance>
+			<value val="" />
+		</EquinoxInstance>
+	</EquinoxMessage>

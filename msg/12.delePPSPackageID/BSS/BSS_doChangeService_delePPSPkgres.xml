@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="tis-620" ?>
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES04.BSS.0" name="HTTP" invoke="[:invoke:]" type="response" method="POST" ctype="text/xml" 
+	to="SMOI.ES00.0" ret="0" />
+
+	<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+		<soapenv:Body xmlns:com="http://www.asiainfo.com/obd/CommonComponents.obd" xmlns:inf="http://www.asiainfo.com/obd/InfoSyncDefines.obd">
+			<ns1:do_ChangeServiceResponse xmlns:ns1="http://www.asiainfo.com/obd/InfoSyncDefines.obd" xmlns:ns0="http://www.asiainfo.com/obd/CommonComponents.obd">
+				<ns1:sResult>
+					<ns0:_so_nbr>SIT201306211432</ns0:_so_nbr>
+					<ns0:_bos_so_nbr>13062132808251</ns0:_bos_so_nbr>
+					<ns0:_finish_date>2013-06-21T14:32:53</ns0:_finish_date>
+					<ns0:_result_code>1000000</ns0:_result_code>
+				</ns1:sResult>
+				<ns1:SProductOrderResultList>
+					<ns0:SProductOrderResultList_Item>
+						<ns0:_product_sequence_id>94373</ns0:_product_sequence_id>
+						<ns0:_product_id>400013</ns0:_product_id>
+						<ns0:_so_product_id/>
+						<ns0:_valid_date>2013-06-21T14:17:15</ns0:_valid_date>
+						<ns0:_expire_date>2013-06-21T14:32:53</ns0:_expire_date>
+					</ns0:SProductOrderResultList_Item>
+				</ns1:SProductOrderResultList>
+			</ns1:do_ChangeServiceResponse>
+		</soapenv:Body>
+	</soapenv:Envelope>
+
+
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

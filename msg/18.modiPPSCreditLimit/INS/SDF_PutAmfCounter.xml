@@ -1,0 +1,14 @@
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES03.SDF" to="SMOI.ES00.SMOI" name="HTTP" type="response" ctype="text/plain" invoke="[:invoke:]" ecode="0" method="POST" url="" ret="0"
+	val="{
+	&quot;resultCode&quot;: &quot;20000&quot;,
+	&quot;resultDescription&quot;: &quot;Success&quot;,
+	&quot;matchedDN&quot;:&quot;&quot;,
+	&quot;diagnosticMessage&quot;:&quot;&quot;
+}">
+
+	</EquinoxRawData>
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

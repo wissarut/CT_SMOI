@@ -1,0 +1,1 @@
+SESSIONID=1:SMOI.ES05.SMOI.0|INVOKE=1|STATE=Idle_Request|MSISDN=null|COMMAND=activatePPSSingSub|INPUT=page=activatePPSSingSub&sgw=athena&lang=11&ssid=50192000072118170708&channel=34343|NEXTSTATE=End_activatePPSSingSub|OUTPUT=<vcrr><res>322</res><desc>INGateway Send HTTP Incomplete Data Response</desc></vcrr>|RESULTCODE=322|DESC=INGateway Send HTTP Incomplete Data Response

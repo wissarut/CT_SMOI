@@ -1,0 +1,49 @@
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES03.SDF" to="SMOI.ES00.SMOI" name="HTTP" type="response" ctype="text/plain" invoke="[:invoke:]" ecode="0" method="POST" url="" ret="0"
+	val="{
+	&quot;resultCode&quot;: &quot;20000&quot;,
+	&quot;resultDescription&quot;: &quot;Success&quot;,
+	&quot;amfCounter&quot;: [{
+		&quot;dn&quot;: &quot;counterId=200010,subdata=profile,ds=amf,subdata=services,uid=667430650823940,ds=SUBSCRIBER,o=AIS,DC=C-NTDB&quot;,
+		&quot;counterId&quot;: &quot;200010&quot;,
+		&quot;objectClass&quot;: &quot;amfCounter&quot;,
+		&quot;persistCycle&quot;: &quot;FALSE&quot;,
+		&quot;counterRollover&quot;: &quot;FALSE&quot;,
+		&quot;refillStopExt&quot;: &quot;FALSE&quot;,
+		&quot;recurringLifecycle&quot;: &quot;FALSE&quot;,
+		&quot;shareable&quot;: &quot;FALSE&quot;,
+		&quot;counterUnit&quot;: &quot;satang&quot;,
+		&quot;counterType&quot;: &quot;mainbalance&quot;,
+		&quot;counterValueType&quot;: &quot;mainbalance&quot;,
+		&quot;counterValue&quot;: &quot;6000&quot;,
+		&quot;counterLowerLimit&quot;: &quot;0&quot;,
+		&quot;counterUpperLimit&quot;: &quot;1000000&quot;,
+		&quot;replenishValue&quot;: &quot;0&quot;,
+		&quot;lifecycleNo&quot;: &quot;120&quot;,
+		&quot;expiryGracePeriod&quot;: &quot;86400&quot;,
+		&quot;amfReserve&quot;: &quot;0&quot;,
+		&quot;counterConsumeVector&quot;: &quot;decrement&quot;,
+		&quot;lifecycleUnit&quot;: &quot;month&quot;,
+		&quot;counterThreshold&quot;: [&quot;LOW1,2000&quot;,
+		&quot;LOW2,0&quot;],
+		&quot;counterState&quot;: &quot;active&quot;,
+		&quot;preExpiryThr&quot;: &quot;NOTF,259200&quot;,
+		&quot;activationDate&quot;: &quot;20160825150407+0700&quot;,
+		&quot;firstModifiedTime&quot;: &quot;20160825150407+0700&quot;,
+		&quot;lastModifiedTime&quot;: &quot;20160825190106+0700&quot;,
+		&quot;expiryTime&quot;: &quot;21060207132815+0700&quot;,
+		&quot;refillStopTime&quot;: &quot;21060207132815+0700&quot;,
+		&quot;expiryNotifyTime&quot;: &quot;19700101070000+0700&quot;,
+		&quot;refillNotifyTime&quot;: &quot;19700101070000+0700&quot;,
+		&quot;amfReserveExpiry&quot;: &quot;20160825190738+0700&quot;,
+		&quot;ds3notificationPolicyControl&quot;: &quot;0000000000000&quot;,
+		&quot;ds3deselectPolicyControl&quot;: &quot;0000&quot;,
+		&quot;amfNotificationHistory&quot;: &quot;LOW2|20160825155908+0700|0&quot;
+	}]
+}">
+
+	</EquinoxRawData>
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

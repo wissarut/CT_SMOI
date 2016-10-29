@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="tis-620" ?>
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES04.BSS.0" name="HTTP" invoke="[:invoke:]" type="response" method="POST" ctype="text/xml"
+	to="SMOI.ES00.0" ret="0" />
+
+	<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+		<soap:Body xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+			<ns1:do_QueryCallScreenResponse xmlns:ns1="http://www.asiainfo.com/obd/InfoSyncDefines.obd" xmlns:ns0="http://www.asiainfo.com/obd/CommonComponents.obd">
+				<ns1:sResult>
+					<ns0:_so_nbr>SIT201306211642</ns0:_so_nbr>
+					<ns0:_bos_so_nbr>13062132839249</ns0:_bos_so_nbr>
+					<ns0:_finish_date>2013-06-21T16:42:51</ns0:_finish_date>
+					<ns0:_result_code>1000000</ns0:_result_code>
+					</ns1:sResult>
+				<ns1:CallScreenNoInfoList>
+				<ns1:CallScreenNoInfoList_Item />
+				<ns1:CallScreenNoInfoList_Item>
+					<ns0:_callscreen_no>0818147383</ns0:_callscreen_no>
+					<ns0:_effective_date>2013-06-21T15:28:46</ns0:_effective_date>
+					<ns0:_expire_date>2013-07-31T15:28:46</ns0:_expire_date>
+					<ns0:_week_start>0</ns0:_week_start>
+					<ns0:_week_stop>6</ns0:_week_stop>
+					<ns0:_ir_route_flag>0</ns0:_ir_route_flag>
+					<ns0:_routing_method>1</ns0:_routing_method>
+					<ns0:_list_type>0</ns0:_list_type>
+				</ns1:CallScreenNoInfoList_Item>
+				</ns1:CallScreenNoInfoList>
+					<ns1:_call_screen_no_type>1</ns1:_call_screen_no_type>
+					<ns1:_routing_method>1</ns1:_routing_method>
+			</ns1:do_QueryCallScreenResponse>
+		</soap:Body>
+	</soapenv:Envelope>
+
+
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

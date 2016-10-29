@@ -1,0 +1,38 @@
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES05.SMOI.0" name="HTTP" invoke="[:invoke:]" type="response" method="POST" ctype="text/xml" 
+	to="SMOI.ES00.0" ret="0" url="/vsmpalias/Web/Services/SubscriberWebService.asmx"/>
+	
+	
+	<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+		<soap:Body>
+			<InquirySubscriberInfoResponse xmlns="http://vsmp.ais.co.th/webservices/subscriber/">
+				<InquirySubscriberInfoResult>
+					<OperationStatus>
+						<IsSuccess>true</IsSuccess>
+						<Code>VSMP-00000000</Code>
+						<Description>OK.</Description>
+						<TransactionID>20060822152151624547091</TransactionID>
+						<OrderRef>1234567890</OrderRef>
+					</OperationStatus>
+					<ParameterLists>
+						<ParameterList>
+							<ParameterName>FirstModifiedTime</ParameterName>
+							<ParameterValue>2016-05-09T08:19:45.3648986+07:00</ParameterValue>
+						</ParameterList>
+						<ParameterList>
+							<ParameterName>msisdn</ParameterName>
+							<ParameterValue>66891236578</ParameterValue>
+						</ParameterList>
+					</ParameterLists>
+				</InquirySubscriberInfoResult>
+			</InquirySubscriberInfoResponse>
+		</soap:Body>
+	</soap:Envelope>
+
+
+
+
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

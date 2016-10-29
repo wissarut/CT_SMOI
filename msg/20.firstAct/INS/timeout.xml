@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="tis-620" ?>
+<EquinoxMessage from="INGW_SQA.E11.0" via="INGW_SQA.E11.0" session="66933516332" timeout="10" ret="4" diag="Timeout">
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

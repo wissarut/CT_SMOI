@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="tis-620" ?>
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES05.SMOI.0" name="HTTP" invoke="1" type="request" method="POST" ctype="text/plain" 
+	to="SMOI.ES00.0" ret="0" val="page=dispScrScreenNo&amp;ms=66899010006&amp;dat=0&amp;ssid=53&amp;sgw=zeus&amp;timeout=20000"/>
+
+	<EquinoxInstance>
+		<value val="" />
+	</EquinoxInstance>
+</EquinoxMessage>
+

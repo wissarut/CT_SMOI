@@ -1,0 +1,12 @@
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SERV.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.E01.0.0" to="SMOI.ES00.SMOI" name="db" type="response" ctype="db" invoke="[:invoke:]" ret="0">
+		<message command="search" resultcode="0" id="[:dbID0:]" objecttype="CosToPromotionName" key0="000" key1="600003" key2="def" key3="def" key4="def">
+			<data value="1|AAA" />
+		</message>
+		
+		
+	</EquinoxRawData>
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

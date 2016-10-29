@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="tis-620" ?>
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES05.SMOI.0" name="HTTP" invoke="[:invoke:]" type="response" method="POST" ctype="text/xml" 
+	to="SMOI.ES00.0" ret="0" url="/vsmpalias/Web/Services/SubscriberWebService.asmx"/>
+
+		<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<soap:Body>
+		<ModifySubscriberResponse xmlns="http://vsmp.ais.co.th/webservices/subscriber/">
+			<ModifySubscriberResult>
+				<OperationStatus>
+					<IsSuccess>true</IsSuccess>
+					<Code>VSMP-00000000</Code>
+					<Description>OK.</Description>
+					<TransactionID>20160809</TransactionID>
+					<OrderRef>50192000072118170708</OrderRef>
+				</OperationStatus>
+				<Subscriber>
+					<Msisdn>66932080736</Msisdn>
+					<CustomerID>668961423492394</CustomerID>
+					<Cos>150636</Cos>
+					<Time>2016-08-09T16:48:02.118115+07:00</Time>
+					<Lang>1</Lang>
+					<IVRLanguage>1</IVRLanguage>
+					<SMSLanguage>1</SMSLanguage>
+					<USSDLanguage>1</USSDLanguage>
+					<EmailLanguage>1</EmailLanguage>
+					<Model />
+					<State>1</State>
+					<VscpState>1</VscpState>
+					<INstate>1</INstate>
+					<ServicePackageId>7</ServicePackageId>
+					<Hack>0</Hack>
+					<Gtcf>1</Gtcf>
+					<ScpId>103</ScpId>
+					<CbpId>INSTR</CbpId>
+					<Bso />
+					<NumImsi>1</NumImsi>
+					<PrepaidFlag>1</PrepaidFlag>
+					<VirtualFlag />
+					<AltPrefixFlag />
+					<AltPrefixCos />
+					<ServiceLocation>INSTRINSTR</ServiceLocation>
+					<HasOneTimePassword>false</HasOneTimePassword>
+					<HasPassword>false</HasPassword>
+					<ToggleF />
+					<ToggleState />
+					<ToggleCos />
+					<CosEffectiveDate />
+					<CosEffectiveValue />
+					<GtcfEffectiveDate />
+					<GtcfEffectiveValue />
+					<FirstActDate >2016-09-08T00:00:00.0000000+07:00</FirstActDate>
+					<imsiArray>
+						<imsi>520032001275049</imsi>
+						<imsiS1 xsi:nil="true" />
+						<msisdnS1 xsi:nil="true" />
+						<imsiS2 xsi:nil="true" />
+						<msisdnS2 xsi:nil="true" />
+						<imsiS3 xsi:nil="true" />
+						<msisdnS3 xsi:nil="true" />
+						<imsiS4 xsi:nil="true" />
+						<msisdnS4 xsi:nil="true" />
+						<imsiX xsi:nil="true" />
+						<msisdnImsiX xsi:nil="true" />
+						<imsiFlag xsi:nil="true" />
+					</imsiArray>
+					<spName>awn</spName>
+					<brandName>3g-prepaid</brandName>
+					<customerCategory />
+					<customerSubCategory />
+					<customerSegment />
+					<HomeLocation />
+					<ActiveStopTime>2016-09-08T00:00:00.0000000+07:00</ActiveStopTime>
+					<SuspendStopTime>2016-09-23T00:00:00.0000000+07:00</SuspendStopTime>
+					<DisableStopTime>2016-10-23T00:00:00.0000000+07:00</DisableStopTime>
+					<TerminateStopTime>2016-11-02T00:00:00.0000000+07:00</TerminateStopTime>
+					<FreezeTime />
+					<FraudFlag>FALSE</FraudFlag>
+					<PinFraudFlag>FALSE</PinFraudFlag>
+					<CustomerRequestF>noSuspend</CustomerRequestF>
+					<DPFlag>allowAllServices</DPFlag>
+					<FirstModifiedTime>2016-07-11T14:56:01.0000000+07:00</FirstModifiedTime>
+					<RegistrationDate>2016-08-09T16:48:00.0000000+07:00</RegistrationDate>
+					<BaId>668961423492394</BaId>
+					<CaId>31500070069427</CaId>
+				</Subscriber>
+			</ModifySubscriberResult>
+		</ModifySubscriberResponse>
+	</soap:Body>
+</soap:Envelope>
+
+
+	<EquinoxInstance>
+		<value val="[:instance:]" />
+	</EquinoxInstance>
+</EquinoxMessage>

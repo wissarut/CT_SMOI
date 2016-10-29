@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="tis-620" ?>
+<EquinoxMessage from="SMOI.E11.0" via="SMOI.E11.0" session="1:SMOI.ES05.SMOI.0" timeout="10" ret="0" diag="">
+	<EquinoxRawData orig="SMOI.ES05.SMOI.0" name="ES00" invoke="1" type="request" method="POST" ctype="text/plain" 
+	to="SMOI.ES00.0" ret="0" val="page=activatePPSSingSub&amp;sgw=MD&amp;ms=66881108888&amp;lang=11&amp;ssid=1234567890&amp;ivrLang=1&amp;smsLang=1&amp;ussdLang=1&amp;emailLang=1&amp;channel=Olympus&amp;location=66881108888
+"/>
+
+	<EquinoxInstance>
+		<value val="" />
+	</EquinoxInstance>
+</EquinoxMessage>
